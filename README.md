@@ -3,6 +3,17 @@ For more details check root [Buck repository](https://github.com/buckcoin/buck)
 
 ### Windows
 
+Prerequesites:
+```{r, engine='bash'}
+# Download this file:
+https://z.cash/downloads/sprout-proving.key
+# Download this file:
+https://z.cash/downloads/sprout-verifying.key
+# Create an new directory in this excat location: 
+mkdir “%HOMEPATH%\AppData\Roaming\ZcashParams
+# Move the two downloaded files to the <ZcashParams> directory
+```
+
 - Download Windows release binary [here](https://github.com/buckcoin/buck-win/releases)
 
 Download the windows exe files, place them in a directory, then:
@@ -27,9 +38,9 @@ Zcashd
 # Leave the main CMD window open, and open another window to run zcash-cli wallet commands
 ```
 
-or
+- or - 
 
-- Build binaries (tested in Ubuntu 16.04)
+- Build binaries on your own from scratch (tested in Ubuntu 16.04)
 Get dependencies
 ```{r, engine='bash'}
 sudo apt-get install \
