@@ -3,7 +3,7 @@ For more details check root [Buck repository](https://github.com/buckcoin/buck)
 
 ### Windows
 
-Prerequesites:
+Prerequisites:
 ```{r, engine='bash'}
 # Download this file:
 https://z.cash/downloads/sprout-proving.key
