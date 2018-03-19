@@ -28,7 +28,7 @@ Zcashd
 # Create a new file named buck.conf in the directory specified 
 # Insert the following into the new buck.conf file 
 addnode=159.89.40.161
-addnode=139.59.111.53
+addnode=35.186.144.221
 addnode=52.199.33.76
 addnode=18.216.125.20
 addnode=54.211.59.227
