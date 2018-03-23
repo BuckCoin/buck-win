@@ -97,14 +97,6 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.clear();
-        // use name as: echo -n hostname | sha256sum
-        vSeeds.push_back(CDNSSeedData("4437c91da6e4c4edca56b57bd52c2e11a3fd7d8b04bd9dec9584fb5220f54b05.BTCZ", "btzseed.blockhub.info"));
-        vSeeds.push_back(CDNSSeedData("6587c9bfccb608dddf1dbba7e2ec8fc91ebe70138e175e2949f3588934687b9b.BTCZ", "dnsseed.kemperink.org"));
-        vSeeds.push_back(CDNSSeedData("a094ea4307abc8b674662175d8e0627c4a30e4916b98ca4b160c2de6e321767c.BTCZ", "seeder.nomadteam.net"));
-        vSeeds.push_back(CDNSSeedData("487658a406d62f020c5656d50923f094a688b92d6c85b3ccd8769b60b2c6449f.BTCZ", "btcz.webrats.com"));
-        vSeeds.push_back(CDNSSeedData("74e66cfeadbfe82ce1f328850f48d67b0cf93777ff843935fa183ffe151e28cb.BTCZ", "btcz.es"));
-        vSeeds.push_back(CDNSSeedData("67f534b87f9a2412f845e39102f184e3a48798ed6e2a64d98b915aa12b625e9c.BTCZ", "seed.btcz.life"));
 
         // guarantees the first 2 characters, when base58 encoded, are "t1"
         base58Prefixes[PUBKEY_ADDRESS]     = {0x1C,0xB8};
@@ -134,11 +126,12 @@ public:
             ( 2500, uint256S("0x0002f370170188a0649583b93a5af30e30022936ae5e43b15a39c1f4a7547aa2"))
             ( 6000, uint256S("0x00000078dc22f3b307b80a74dd1b001fda29f0d23661585506053c8bce4c4162"))
             ( 10000, uint256S("0x000000a1231c242c8a542f200686b7c49b7cd4b745c6658cae028a57f9aa39e8"))
-            ( 19500, uint256S("0x000000284fb4980f0a6cf9a51474e7e9dd9d91d2c5fbe5ebc884aafe66ddab83")),						
-            1519324442,       // * UNIX timestamp of last checkpoint block
-            51705,            // * total number of transactions between genesis and last checkpoint
+            ( 19500, uint256S("0x000000284fb4980f0a6cf9a51474e7e9dd9d91d2c5fbe5ebc884aafe66ddab83"))						
+            ( 35000, uint256S("0x0000003c6e4d945a16077570789560a1d48c5abe5f7a93fb8f325670e9c504d8")),						
+            1521670425,       // * UNIX timestamp of last checkpoint block
+            97330,            // * total number of transactions between genesis and last checkpoint
                               //   (the tx=... number in the SetBestChain debug.log lines)
-            1527.28615384615  // * estimated number of transactions per day after checkpoint
+            1601.77371428571  // * estimated number of transactions per day after checkpoint
                               //   total number of tx / (checkpoint block height / (24 * 24))
         };
 
