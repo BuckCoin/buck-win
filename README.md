@@ -9,7 +9,7 @@ Prerequisites:
 https://z.cash/downloads/sprout-proving.key
 # Download this file:
 https://z.cash/downloads/sprout-verifying.key
-# Create an new directory in this excat location: 
+# Create an new directory in this exact location: 
 mkdir “%HOMEPATH%\AppData\Roaming\ZcashParams
 # Move the two downloaded files to the <ZcashParams> directory
 ```
