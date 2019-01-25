@@ -83,6 +83,7 @@ public:
     std::string GetFoundersRewardAddressAtIndex(int i) const;
     /** Enforce coinbase consensus rule in regtest mode */
     void SetRegTestCoinbaseMustBeProtected() { consensus.fCoinbaseMustBeProtected = true; }
+	int GetNewTimeRule() const { return newTimeRule; }
 protected:
     CChainParams() {}
 
@@ -109,6 +110,7 @@ protected:
     bool fTestnetToBeDeprecatedFieldRPC = false;
     Checkpoints::CCheckpointData checkpointData;
     std::vector<std::string> vFoundersRewardAddress;
+	int newTimeRule;
 };
 
 /**
